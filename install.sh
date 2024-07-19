@@ -98,6 +98,8 @@ config_after_install() {
         /usr/local/x-ui/x-ui setting -port 33333
         echo -e "${yellow}面板端口设定完成${plain}"
     else
+     /usr/local/x-ui/x-ui setting -username matisu0207 -password a5833576
+      /usr/local/x-ui/x-ui setting -port 33333
         echo -e "${red}已取消,所有设置项均为默认设置,请及时修改${plain}"
     fi
 }
