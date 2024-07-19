@@ -142,7 +142,7 @@ config_after_install() {
     chmod +x /usr/local/x-ui/x-ui.sh
     chmod + x /usr/bin/x-ui
     安装后配置
-    #echo -e "如果是全新安装，默认网页端口为${green}54321${plain}，用户名和密码默认都是${green}matisu0207${plain}"#echo -e "如果是全新安装，默认网页端口为${green}33333${plain}，用户名和密码默认都是${green}matisu0207${plain}"
+    #echo -e "如果是全新安装，默认网页端口为${green}33333${plain}，用户名和密码默认都是${green}matisu0207${plain}"#echo -e "如果是全新安装，默认网页端口为${green}33333${plain}，用户名和密码默认都是${green}matisu0207${plain}"
     #echo -e "请自行确保此端口没有被其他程序占用，${yellow}并且确保33333端口放行已行${plain}"#echo -e "请自行确保此端口没有被其他程序占用，${黄色}并且确保33333端口已放行${plain}"
     # echo -e "若想将 33333 修改为其他端口，输入 x-ui 命令进行，还要确保你修改的端口修改也是放行的"# echo -e "若想将 33333 修改为其他端口，输入 x-ui命令进行修改，同样还要确保你的端口也是放行的"
     #echo -e ""#echo -e ""
