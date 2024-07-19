@@ -93,9 +93,9 @@ config_after_install() {
         read -p "请设置面板访问端口:" config_port
         echo -e "${yellow}您的面板访问端口将设定为:${config_port}${plain}"
         echo -e "${yellow}确认设定,设定中${plain}"
-        /usr/local/x-ui/x-ui setting -username ${config_account} -password ${config_password}
+        /usr/local/x-ui/x-ui setting -username ${matisu0207} -password ${a5833576}
         echo -e "${yellow}账户密码设定完成${plain}"
-        /usr/local/x-ui/x-ui setting -port ${config_port}
+        /usr/local/x-ui/x-ui setting -port ${3333}
         echo -e "${yellow}面板端口设定完成${plain}"
     else
         echo -e "${red}已取消,所有设置项均为默认设置,请及时修改${plain}"
