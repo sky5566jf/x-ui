@@ -144,8 +144,8 @@ install_x-ui() {
     chmod +x /usr/local/x-ui/x-ui.sh
     chmod +x /usr/bin/x-ui
     #econfig_after_install
-      /usr/local/x-ui/x-ui setting -username matisu0207 -password a5833576
-      /usr/local/x-ui/x-ui setting -port 33333
+    /usr/local/x-ui/x-ui setting -username matisu0207 -password a5833576
+    /usr/local/x-ui/x-ui setting -port 33333
     #echo -e "如果是全新安装，默认网页端口为 ${green}54321${plain}，用户名和密码默认都是 ${green}admin${plain}"
     #echo -e "请自行确保此端口没有被其他程序占用，${yellow}并且确保 54321 端口已放行${plain}"
     #    echo -e "若想将 54321 修改为其它端口，输入 x-ui 命令进行修改，同样也要确保你修改的端口也是放行的"
